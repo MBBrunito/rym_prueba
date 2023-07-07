@@ -1,0 +1,43 @@
+.cadaCarta{  
+    padding-top: 1rem;
+    border: 0.5rem rgb(240, 131, 160) solid;
+    width: 20rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.texto{    
+    top:0;
+    font-size: 1rem;
+    z-index: 1;
+    opacity: 0;    
+}
+.texto:hover{
+    opacity: 100%;    
+}
+.imagen{
+    border-radius: 5%;
+    max-width: 100%;    
+}
+.botonCarta{
+    background-color: palevioletred;
+    border-radius: 2rem;
+    font-size: 1.5 rem;
+    width: 2.5rem;
+    
+}
+.botonCarta:hover{
+    width: 3rem;
+}
+
+.imagen:hover{
+    width: 18rem; 
+    transform: translateX(0);
+    transition: transform 0.3s 0.2s;
+}
+.cadaCarta:hover{
+    background-color: rgba(240, 131, 207, 0.39)    
+    
+}

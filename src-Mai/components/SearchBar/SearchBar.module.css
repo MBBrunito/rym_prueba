@@ -1,0 +1,24 @@
+.buscador{
+    margin-top: 2rem;        
+    
+}
+
+.espacio{
+    background-color: rgb(206, 158, 174);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+.boton{
+    background-color: rgb(144, 96, 189);    
+    font-size: 1.5rem;
+    color: palevioletred;
+    border-radius: 2rem;
+}
+.boton:hover{
+    width: 7rem;
+    color: azure;
+}
+.espacio:hover{
+    background: palevioletred;
+}

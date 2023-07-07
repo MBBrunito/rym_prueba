@@ -1,0 +1,52 @@
+.contenedor {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.detail {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.titulo {
+   color: darkorange;
+   font-size: 3rem;
+   font-style: italic;
+   font-family: "Kalam", cursive;
+   text-shadow: 4px 4px black;
+}
+
+.name {
+   padding: 1rem;
+   font-family: "Kalam", cursive;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 25rem;
+   flex-wrap: wrap;
+   border-radius: 2rem;
+   background: linear-gradient(to right, rgb(57, 11, 114), rgb(81, 99, 149));
+   font-size: 2rem;
+   color: chartreuse;
+   text-shadow: 4px 4px black;
+}
+
+.image {
+   border-radius: 2rem;
+}
+
+.detalle {
+   text-align: left;
+   font-family: "Kalam", cursive;
+   padding: 2rem;
+   border-radius: 2rem;
+   background: linear-gradient(to right, rgb(81, 99, 149), rgb(57, 11, 114));
+   width: 25rem;
+   font-size: 1.7rem;
+   color:gold;
+   text-shadow: 4px 4px black;
+}
+
+.key{
+   color: white
+}

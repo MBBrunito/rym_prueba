@@ -1,0 +1,11 @@
+.cartita{
+    background-color: blue;
+  
+}
+.contenedor{
+    margin-top: 4rem;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    
+}

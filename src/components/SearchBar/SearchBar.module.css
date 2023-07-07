@@ -1,0 +1,22 @@
+.barra{padding: 1rem;
+   display: flex;
+   justify-content: right;
+}
+.searchy{
+   height: 3rem;
+   width: 20rem;
+   border-radius: 25px;
+   background-color: blue;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   padding-left: 3rem;
+   padding-right: 3rem;
+}
+
+button{
+   font-size: large;
+}
+input{
+   font-size: large;
+}

@@ -1,0 +1,81 @@
+.cardsito {
+   width: 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-bottom: 0.5rem;
+}
+
+.h2 {
+   height: 2.5rem;
+   width: 16.5rem;
+   font-size: 21px;
+   color: black;
+   border: 5px inset #000000;
+   text-align: left;
+
+}
+.h2:hover  {
+   background-color: dodgerblue;
+   font-weight: bolder;
+   font-size: 20px;
+   border: 5px outset #000000;
+   cursor: alias;
+}
+
+.interno {
+   position: absolute;
+   margin-left: 3rem;
+   margin-top: 15rem;
+   /* background-color: rgba(100, 148, 237, 0.555); */
+   /* border: 0.25rem black solid; */
+   transition-duration: 500ms;
+}
+
+.img {
+   width: 10rem;
+   margin: 1rem;
+   border-radius: 8rem;
+   border: yellowgreen 0.5rem solid;
+   transition-duration: 500ms;
+}
+/* .img:hover {
+   transform: skew(10deg, 10deg);
+   border: red 0.5rem solid;
+   transition-duration: 500ms;
+} */
+
+.h3 {
+   font-size: 20px;
+   margin-top: -1.25rem;
+   color: white;
+}
+
+.botones {
+   display: flex;
+   justify-content: right;
+   /* padding-right: 1rem; */
+   /* padding-top: 1rem; */
+}
+
+.close {
+   /* border-radius: 15px;
+   text-align: right;*/
+   width: 3.5rem;
+   height: 2.5rem;
+   cursor: pointer;
+   font-weight: bold;
+   border: 5px inset #000000;
+}
+.close:hover {
+   background-color: red;
+   border: 5px outset #000000;
+}
+
+span {
+   color: black;
+}
+
+.datos {
+   margin-top: 0.5rem;
+}
